@@ -71,7 +71,7 @@ for i, table in pairs(garbage) do
 
 if type(table) == "table" and rawget(table, "AmmoPerMag") then
 
-rawset(table, "AmmoPerMag", 82728)
+rawset(table, "AmmoPerMag", 1e20)
 
 end
 
@@ -81,7 +81,7 @@ end
 })
 
 local Button = Tab:CreateButton({
-   Name = "no gun windup time",
+   Name = "no gun windup",
    Callback = function()
 local garbage = getgc(true)
 
@@ -89,9 +89,9 @@ local garbage = getgc(true)
 
 for i, table in pairs(garbage) do
 
-if type(table) == "table" and rawget(table, "WindUpTime") then
+if type(table) == "table" and rawget(table, "WindUpEnabled") then
 
-rawset(table, "WindUpTime", 0)
+rawset(table, "WindUpEnabled", true)
 
 end
 
@@ -101,7 +101,7 @@ end
 })
 
 local Button = Tab:CreateButton({
-   Name = "no gun wind down time",
+   Name = "no gun wind down",
    Callback = function()
 local garbage = getgc(true)
 
@@ -109,9 +109,9 @@ local garbage = getgc(true)
 
 for i, table in pairs(garbage) do
 
-if type(table) == "table" and rawget(table, "WindDownTime") then
+if type(table) == "table" and rawget(table, "WindDownEnabled") then
 
-rawset(table, "WindDownTime", 0)
+rawset(table, "WindDownEnabled", true)
 
 end
 
@@ -151,7 +151,7 @@ for i, table in pairs(garbage) do
 
 if type(table) == "table" and rawget(table, "Spread") then
 
-rawset(table, "Spread", 0)
+rawset(table, "Spread", 105)
 
 end
 
@@ -171,7 +171,7 @@ for i, table in pairs(garbage) do
 
 if type(table) == "table" and rawget(table, "ProjectilesPerShot") then
 
-rawset(table, "ProjectilesPerShot", 5.5)
+rawset(table, "ProjectilesPerShot", 350)
 
 end
 
@@ -211,7 +211,7 @@ for i, table in pairs(garbage) do
 
 if type(table) == "table" and rawget(table, "ProjectileSpeed") then
 
-rawset(table, "ProjectileSpeed", 12345)
+rawset(table, "ProjectileSpeed", 95000000)
 
 end
 
@@ -231,7 +231,7 @@ for i, table in pairs(garbage) do
 
 if type(table) == "table" and rawget(table, "PierceShield") then
 
-rawset(table, "PierceShield", true)
+rawset(table, "PierceShield", 92233720)
 
 end
 
