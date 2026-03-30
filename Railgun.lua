@@ -91,7 +91,7 @@ for i, table in pairs(garbage) do
 
 if type(table) == "table" and rawget(table, "WindUpEnabled") then
 
-rawset(table, "WindUpEnabled", true)
+rawset(table, "WindUpEnabled", false)
 
 end
 
@@ -111,7 +111,7 @@ for i, table in pairs(garbage) do
 
 if type(table) == "table" and rawget(table, "WindDownEnabled") then
 
-rawset(table, "WindDownEnabled", true)
+rawset(table, "WindDownEnabled", false)
 
 end
 
