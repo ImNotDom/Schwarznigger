@@ -141,7 +141,7 @@ end
 })
 
 local Button = Tab:CreateButton({
-   Name = "no spread",
+   Name = "spread 105",
    Callback = function()
 local garbage = getgc(true)
 
@@ -272,6 +272,26 @@ for i, table in pairs(garbage) do
 if type(table) == "table" and rawget(table, "Automatic") then
 
 rawset(table, "Automatic", true)
+
+end
+
+end
+      print("button clicked")
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "CHANGE PROJECTILE WOHOOOOOO",
+   Callback = function()
+local garbage = getgc(true)
+
+
+
+for i, table in pairs(garbage) do
+
+if type(table) == "table" and rawget(table, "ProjectileObject") then
+
+rawset(table, "ProjectileObject", Shit)
 
 end
 
