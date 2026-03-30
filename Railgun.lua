@@ -229,9 +229,9 @@ local garbage = getgc(true)
 
 for i, table in pairs(garbage) do
 
-if type(table) == "table" and rawget(table, "PierceShield") then
+if type(table) == "table" and rawget(table, "PierceShields") then
 
-rawset(table, "PierceShield", 92233720)
+rawset(table, "PierceShields", 92233720)
 
 end
 
