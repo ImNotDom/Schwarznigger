@@ -2,12 +2,12 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "gun modifier",
+   Name = "Railer",
    Icon = 0, -- Use 0 for no icon
    LoadingTitle = "hi there bitch",
    LoadingSubtitle = "made by ohdbloxguy232",
-   ShowText = "modifier", -- for mobile users to unhide rayfield, change if you'd like
-   Theme = "DarkBlue",
+   ShowText = "Railer", -- for mobile users to unhide rayfield, change if you'd like
+   Theme = "Amber",
 
    ToggleUIKeybind = "L",
 
