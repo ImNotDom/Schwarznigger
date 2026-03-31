@@ -131,7 +131,7 @@ for i, table in pairs(garbage) do
 
 if type(table) == "table" and rawget(table, "FireRate") then
 
-rawset(table, "FireRate", 0)
+rawset(table, "FireRate", 0.05)
 
 end
 
