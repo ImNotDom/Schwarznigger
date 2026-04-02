@@ -28,13 +28,13 @@ local Window = Rayfield:CreateWindow({
 
    KeySystem = false,
    KeySettings = {
-      Title = "contact owner to get key",
-      Subtitle = "i was here",
-      Note = "GET KEY FROM SCRIPT OWNER (find it yourself)",
+      Title = "ez",
+      Subtitle = "ez",
+      Note = "haha nigger i put key so you must open the raw link",
       FileName = "Idk",
       SaveKey = true,
       GrabKeyFromSite = false,
-      Key = {"IHaveAFaceLULZ"}
+      Key = {"you are nigger bitch"}
    }
 })
 
